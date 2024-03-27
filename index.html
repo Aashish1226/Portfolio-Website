@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b65e2fa27b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="image/asliiiiiiiiii portfolio.png" class="logo">
+           <ul id="sidemenu">
+                <li> <a href="#header">Home</a></li>
+                <li> <a href="#about">About</a></li>
+                <li> <a href="#certificates">Certificates</a></li>
+                <li> <a href="#projects">Projects</a></li>
+                <li> <a href="#contact">Contact</a></li>
+                <i class="fas fa-solid fa-circle-xmark " onclick="closemenu()"></i>
+            </ul>
+
+            <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi , I'm <span>Aashish</span> <br> From Rajasthan </h1>
+            
+        </div>
+        
+    </div>
+   </div>
+
+
+   <!-- -------------------about-------------- -->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/aboututouotuo.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    I am currently pursuing my BTech from Poornima University, Jaipur,
+                    with a passion for coding and continuous learning. Proficient in front-end development,
+                    I love problem-solving and enjoy exploring new technologies. Recently, I built a responsive portfolio website to showcase my skills and projects.    
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links "onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id = "skills">
+                    <ul>
+                        <li><span>Data Structures and algorithms</span><br> </li>
+                        <li><span>OOPs</span><br> </li>
+                        <li><span>Java</span><br> </li>
+                        <li><span>HTML</span><br> </li>
+                        <li><span>CSS</span> </li>
+                        <li><span>C language</span><br> </li>
+                        <li><span>MySql</span><br> </li>
+                        <li><span>Bootstrap</span><br> </li>
+                        <!-- <li><span>Operating System</span><br> </li>
+                        <li><span>Computer Networks</span><br> </li> -->
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id = "education">
+                    <ul>
+                        <li><span>2018</span><br><span class="percentage">82.83%</span><br>Secondary Education <br> Shalom English Secondary School <br><span style="color:brown;">Alwar,Rajasthan</span></li>
+                        <li><span>2020</span><br><span class="percentage">77%</span><br>Senior Secondary Education <br> Shri public Senior Secondary school <br><span style="color:brown;">Jaipur,Rajasthan</span> </li>
+                        <li><span>2021 - present</span><br><span class="percentage">8.19 CGPA</span><br>Graduation <br> Poornima University<br><span style="color:brown;">Jaipur,Rajasthan</span> </li>
+                      </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+
+   <!-- -------------------Certificates---------------- -->
+
+   <div id="certificates">
+    <div class="container">
+        <h1 class="sub-title">Certificates</h1>
+        <div class="certificates-list">
+                <div>
+                    <i class="fa-solid fa-microphone"></i>
+                    <h2>NPTEL Public Speaking</h2>
+                    <p>This course is designed to equip individuals with the essential skill and techniques neccessary for effective communication in public settings.</p>   
+                <a href="image/Aashishsaini_public_speaking.pdf" download >Learn More</a>
+            </div>
+                <!-- <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>OOPS with Java</h2>
+                    <p>This course is designed to equip individuals with the essential skill and techniques neccessary for effective communication in public settings.</p>   
+                <a href="#">Learn More</a>
+            </div> -->
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Introduction to Java Programming</h2>
+                    <p>This course is designed to equip individuals with the essential skill and techniques neccessary for effective communication in public settings.</p>   
+                <a href="image/JAVA CERIFICATE.png" download>Learn More</a>
+            </div>
+                <!-- <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Introduction to DBMS</h2>
+                    <p>This course is designed to equip individuals with the essential skill and techniques neccessary for effective communication in public settings.</p>   
+                <a href="#">Learn More</a>
+            </div> -->
+                <div>
+                    <i class="fa-solid fa-c"></i>
+                    <h2>Problem Solving Through Programmin In C (in progress)</h2>
+                    <p>This course is designed to equip individuals with the essential skill and techniques neccessary for effective communication in public settings.</p>   
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+   </div>
+
+
+   <!-- -----------------PROJECTS--------------------- -->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+       <div class="work-list">
+        <div class="work">
+            <img src="image/work-1.png">
+            <div class="layer">
+                <h3>Just A Project Section</h3>
+                <!-- <p>This app connects you to the talented people around the world.
+                    Download it from play store.
+                </p> -->
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="image/work-2.png">
+            <div class="layer">
+                <h3>Just A Project Section</h3>
+                <!-- <p>This app connects you to the talented people around the world.
+                    Download it from play store.
+                </p> -->
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="image/work-3.png">
+            <div class="layer">
+                <h3>Just A Project Section</h3>
+                <!-- <p>This app connects you to the talented people around the world.
+                    Download it from play store.
+                </p> -->
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+       </div>
+       <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+
+
+<!---------------------------CONTACT------------------------>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>aashishsaini1226@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9358249103</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/aashish-saini-133435245/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/aashishsaini1226/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/Aashish1226" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="#" download class="btn btn2" >Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright: Made with <i class="fa-solid fa-heart"></i> by Aashish Saini</p>
+    </div>
+</div>
+
+   <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+   </script>
+
+   <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+         sidemenu.style.right = "0";
+    }
+    function closemenu(){
+         sidemenu.style.right = "-200px";
+    }
+   </script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxTo9jqhur665OrX1uSsGOw-u_hm3ngVAzv0HL0p4HgK5mwzlWz-eyx60QeE11XYytQRg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(() => {
+                msg.innerHTML = ""
+            },2000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
